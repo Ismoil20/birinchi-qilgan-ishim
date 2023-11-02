@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;box-sizing: border-box;
+}
+header{
+height: 800px;
+background-image: url(img/3-rasm.jpg);
+background-size:cover;
+background-position:center;
+}
+ul{
+  display: flex;
+  list-style: none; 
+   justify-content: center;
+   gap: 40px;
+   margin-top: 20px;
+   text-transform:uppercase;
+}
+ul>li>a{
+    color:grey;
+    text-decoration:none;
+}
+.home >a{
+    color: white;
+}
+nav{
+    padding-left: 535px;
+    padding-top: 150px;
+}
+nav>h1{
+    font-size:32px;
+    width: 390px;
+    color: white;
+}
+nav>p{
+    color: white;
+}
+
+nav>button{
+    margin-top: 50px;
+    padding:10px 20px;
+    text-transform: uppercase;
+    background-color:rgb(255, 165, 0);
+    color: white;
+    border: 1px solid orange;
+
+}
